@@ -23,13 +23,10 @@
 \renewcommand\thesection{\Roman{section}}
 \titleformat{\chapter}[hang]{\Huge\bfseries}{\thechapter\hsp\textcolor{gray75}{|}\hsp}{0pt}{\Huge\bfseries}
 
-\newglossary[nlg]{notation}{not}{ntn}{Notations}
-
 \makeglossaries
 
 \newglossaryentry{mifare}
 {
-	type=notation,
 	name=MIFARE,
 	description={Marque de NXP incluant une large gamme de circuits intégrés sans contact.},
 }
@@ -110,10 +107,7 @@ En octobre 2016 Qualcomm annonçait son souhait de racheter NXP Semiconductors. 
 Qualcomm n'acquérira pas les brevets essentiels au standard \gls{nfc} de NXP, ni quelques uns non-essentiels concernant la \gls{nfc}.
 Qualcomm devra maintenir, pendant une période de huit ans, la licence actuelle de la technologie \gls{mifare}. Enfin ils devront aussi garantir l'intéropérabilité des puces NXP avec les autres constructeurs.
 
-\chapter{Glossaire}
-
-
-\printglossaries
+\printglossary[title={Glossaire}]
 
 
 
