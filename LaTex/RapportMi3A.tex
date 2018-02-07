@@ -1,6 +1,6 @@
 % !TeX encoding = UTF-8
 % !TeX spellcheck = fr_FR
-\documentclass[french,12pt,a4paper,titlepage,openright,openbib]{report}
+\documentclass[french,11pt,a4paper,titlepage,openright,openbib]{report}
 
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
@@ -8,7 +8,8 @@
 \usepackage{helvet}
 
 \usepackage{array}
-\usepackage{acronym}
+\usepackage[pdfborder={0 0 0}]{hyperref}
+\usepackage[xindy,toc]{glossaries}
 \usepackage{titlesec}
 \usepackage{color}
 \usepackage{blindtext}
@@ -19,7 +20,20 @@
 \parindent=0in
 \parskip=8pt
 \renewcommand\thechapter{\Roman{chapter}}
+\renewcommand\thesection{\Roman{section}}
 \titleformat{\chapter}[hang]{\Huge\bfseries}{\thechapter\hsp\textcolor{gray75}{|}\hsp}{0pt}{\Huge\bfseries}
+
+\newglossary[nlg]{notation}{not}{ntn}{Notations}
+
+\makeglossaries
+
+\newglossaryentry{mifare}
+{
+	type=notation,
+	name=MIFARE,
+	description={Marque de NXP incluant une large gamme de circuits intégrés sans contact.},
+}
+\newacronym{nfc}{NFC}{Near Field Communication}
 
 \begin{document}
 
@@ -84,6 +98,24 @@ Une seconde partie concerne les projets en cours, elle est centrée sur la derni
 Enfin, une autre partie traite de mon évolution personnelle et professionnelle au cours de ces trois années.
 
 \chapter{Actualités}
+
+Au cours des derniers mois les effectifs de NXP à Caen ont été réduits. Cela a eu pour conséquence un réaménagement de certains bureaux.
+Didier Graignic qui remplaçait Virginie Jobard a quitté l'entreprise, lui aussi, Nicolas Guillerme l'a remplacé en qualité de maître d'apprentissage.
+L'équipe avec laquelle je travaille est aujourd'hui composée de Nicolas Guillerme, Dominique Defossez et moi même. Cette équipe est l'équipe attachée au projet MOOCTab que je détaillerai plus loin.
+
+
+\section{Qualcomm}
+
+En octobre 2016 Qualcomm annonçait son souhait de racheter NXP Semiconductors. La commission américaine avait approuvé ce rachat mais la commisions européenne n'était pas d'accord. Après une enquête approfondie, la commission européenne accepte le rachat uniquement sous certaines conditions :
+Qualcomm n'acquérira pas les brevets essentiels au standard \gls{nfc} de NXP, ni quelques uns non-essentiels concernant la \gls{nfc}.
+Qualcomm devra maintenir, pendant une période de huit ans, la licence actuelle de la technologie \gls{mifare}. Enfin ils devront aussi garantir l'intéropérabilité des puces NXP avec les autres constructeurs.
+
+\chapter{Glossaire}
+
+
+\printglossaries
+
+
 
 \end{document}
 
