@@ -15,3 +15,7 @@ Notre module NFC est composé d'une petite carte tournant sous Android à laquel
 C'est pour moi une expérience inédite n'ayant jamais réalisé ce genre de tâches auparavant.
 
 ## NFC Playbook
+
+Il arrive que l'entreprise ait des besoins ponctuelles de produire des démonstrations ou des modèles pour promouvoir l'utilisation de la NFC et notamment dans les applications mobiles.
+Récemment un collègue d'un autre service est venu solliciter mes compétences en la matière afin de développer un petit squelette de code pouvant être réutilisé.
+Le but était de produire une petite application Android permettant d'héberger des mini-applications qui utiliseraient la NFC. Il fallait avoir la possibilité de lancer les mini-applications, soit en cliquant dessus, soit en utilisant un tag NFC.
