@@ -1,8 +1,10 @@
 # Remerciements
 # Introduction
-# Actualités entreprise
-# Projets en cours
-Parler du projet de Arnaud
-# Evolution
-# Bilan personnel
+# Actualités
+# Missions
+## MOOCTab
+## NFC Playbook
+# Évolution personnelle
+## Technique
+# Bilan
 # Conclusion
