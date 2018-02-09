@@ -18,4 +18,9 @@ C'est pour moi une expérience inédite n'ayant jamais réalisé ce genre de tâ
 
 Il arrive que l'entreprise ait des besoins ponctuelles de produire des démonstrations ou des modèles pour promouvoir l'utilisation de la NFC et notamment dans les applications mobiles.
 Récemment un collègue d'un autre service est venu solliciter mes compétences en la matière afin de développer un petit squelette de code pouvant être réutilisé.
+
 Le but était de produire une petite application Android permettant d'héberger des mini-applications qui utiliseraient la NFC. Il fallait avoir la possibilité de lancer les mini-applications, soit en cliquant dessus, soit en utilisant un tag NFC.
+
+Cette application sera utilisée lors d'un évènement du Dôme qui aura lieu les 16 et 17 Février 2018. C'est un atelier qui se fera sur une journée et sera centré sur le thème du livre et des intéractions numériques. Les développeurs et artistes de chaque équipe devront fabriquer des prototypes de livres améliorés grâce à l'outil numérique.
+
+Cette mission m'a permis de faire une coupure par rapport au MOOCTab, tout en aidant un collègue. De plus ma contribution a permis d'éviter le recours à un prestataire et a donc induit des économies non négligeables.
