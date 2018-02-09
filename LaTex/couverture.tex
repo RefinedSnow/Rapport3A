@@ -1,0 +1,59 @@
+% !TeX encoding = UTF-8
+% !TeX spellcheck = fr_FR
+% !TeX root = RapportMi3A.tex
+
+\backgroundsetup{
+	scale=1,
+	color=black,
+	opacity=1.0,
+	angle=0,
+	contents={%
+		\includegraphics[width=\paperwidth, height=\paperheight]{cover_tmpl}
+	}%
+}
+
+{
+	\BgThispage
+	\thispagestyle{couverture}
+	
+	\newgeometry{headheight=80pt, top=6cm, headsep=3cm}
+	
+	\makeatletter
+	{\LARGE\bfseries\@title\par}
+	{\color{aqua}Informatique par apprentissage \\
+	\color{aqua}Année universitaire 2017-2018}
+	\hfill
+	\vspace{0.5cm}
+	
+	\includegraphics[width=15cm]{scylla}
+	\vspace{0.5cm}
+	
+	\begin{minipage}[c]{0.5\textwidth}
+	Tuteur école \par
+	{\color{aqua} Wilfried \bsc{Aubry}}
+	
+	\vspace{0.5cm}
+	
+	Maître d'apprentissage \par
+	{\color{aqua} Nicolas \bsc{Guillerm}}
+	\end{minipage}
+	\begin{minipage}[c]{0.5\textwidth}
+	Tuteur école \par
+	{\color{aqua} Wilfried \bsc{Aubry}}
+	
+	\vspace{0.5cm}
+	
+	Maître d'apprentissage \par
+	{\color{aqua} Nicolas \bsc{Guillerm}}
+	\end{minipage}
+	
+		
+		
+	
+	\makeatother
+	
+	\vfill
+	
+	\afterpage{\blankpage}
+	\restoregeometry
+}
