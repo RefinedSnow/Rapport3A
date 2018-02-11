@@ -10,4 +10,4 @@ J'aimerais aussi remercier Nicolas Guillerm pour toute l'aide qu'il a apporté q
 
 Je remercie également Wilfried Aubry qui a été de bon conseil et qui a su apporter une grande aide.
 
-Je tiens également à remercier mes collègues chez NXP pour leur aide et leurs soutien.
+Je tiens également à remercier mes collègues chez NXP pour leur aide et leur soutien.

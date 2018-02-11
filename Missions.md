@@ -13,6 +13,7 @@ Le module NFC de la box devra pouvoir lire les badges, potentiellement les écri
 Notre module NFC est composé d'une petite carte tournant sous Android à laquelle nous avons rattachée une puce NFC avec une antenne. Mon rôle a été de réaliser la liaison entre la carte avec la puce et l'antenne autant au niveau matériel que logiciel.
 
 C'est pour moi une expérience inédite n'ayant jamais réalisé ce genre de tâches auparavant.
+%Parler de la tablette (QRD)
 
 ## NFC Playbook
 
