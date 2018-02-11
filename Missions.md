@@ -1,19 +1,26 @@
 # Missions
 
 Au cours de ma formation j'ai été amenée à travailler sur des petites tâches ponctuelles, principalement le développement d'application Android. Ces applications avaient pour but de montrer différents usages de la technologie NFC.
-En deuxième année mes tâches ont progressivement évoluée vers le projet européen MOOCTab qui occupe maintenant la plus grande partie de mon temps.
+En deuxième année mes tâches ont progressivement évolué vers le projet européen MOOCTab qui occupe maintenant la plus grande partie de mon temps.
 
 ## MOOCTab
 
-Pour rappel le projet MOOCTab est un projet européen qui réunit la Turquie et la France. Le but de ce projet est de proposer une solution permettant de consulter des MOOCs en ligne de manière sécurisée sur des tablettes. En outre la solution doit permettre de pouvoir passer des examens.
+MOOCTab est un projet européen qui réunit la Turquie et la France. Le but de ce projet est de proposer une solution permettant de consulter des MOOCs en ligne de manière sécurisée sur des tablettes. En outre la solution doit permettre de pouvoir passer des examens. Pour se faire l'ensemble de la tablette doit être sécurisé, de plus l'identité de l'étudiant doit pouvoir être vérifiée.
 
-La solution comprend une MOOCBox qui permet aux utilisateurs de s'authentifier avec leurs badges et d'avoir accès au contenu qu'elle diffuse. NXP est chargé de réaliser la partie NFC de cette box.
-Le module NFC de la box devra pouvoir lire les badges, potentiellement les écrire et partager des informations avec l'autre partie de la box.
+La solution comprend une MOOCBox qui permet aux utilisateurs de s'authentifier avec leurs badges et d'avoir accès au contenu qu'elle diffuse dans la salle de cours.
+La MOOCBox est composée de deux éléments distincts, un serveur local à la salle de cours et un module NFC permettant la partie authentification.
 
-Notre module NFC est composé d'une petite carte tournant sous Android à laquelle nous avons rattachée une puce NFC avec une antenne. Mon rôle a été de réaliser la liaison entre la carte avec la puce et l'antenne autant au niveau matériel que logiciel.
+Le module NFC de la box possède un élément sécurisé, cet élément sécurisé permettra de stocker les données d'identification des étudiants. Ce module pourra lire les badges, les écrire et partager des informations avec l'autre partie de la box. C'est cette partie-là que NXP a la responsabilité de réaliser.
+
+Notre partie de la box est composée d'une petite carte tournant sous Android à laquelle nous avons rattaché une puce NFC avec une antenne. Mon rôle a été de réaliser la liaison entre la carte et la puce NFC, autant au niveau matériel que logiciel.
+
+Dans un premier temps il m'a été demandé de réaliser plusieurs démonstrations sous Android.
+La première permettait d'accéder à un bracelet connecté qui agissait comme une carte étudiant. Il fallait pouvoir lire et écrire des informations dessus. Cette démonstration a été présentée à l'occasion d'un salon auquel NXP participait. Afin de réaliser cette démonstration il m'a fallu apprendre comment fonctionnait une carte d'identification et comment elle était créée. Il a aussi fallu que j'apprenne à accéder au contenu du braclet pour le lire et le modifier. J'ai ainsi découvert les avantages et les limitations du système.
+La seconde venait compléter cette démonstration, il fallait pouvoir démontrer qu'il était possible d'acccéder à l'élément sécurisé du lecteur (l'appareil Android) afin de traiter les informations qu'envoyait la carte (le braclet). Afin que cette démonstration puisse voir le jour nous avions à dispositions des smartphones de référence qui servent de testeurs. Ayant un accès complet à ces smartphones avec les clés permettant d'accéder à l'élément sécurisé nous avons pu y installer une petite application nommée loopback. Cette petit application permettait entre autre de renvoyer, sous forme inversée, les données que nous lui envoyons. Par exemple nous aabbcc était envoyé et en retour ccbbaa était retourné.
+
+Ces deux démonstrations ont été l'occasion pour moi d'apprendre à utiliser différentes manières pour manipuler la NFC sous Android.
 
 C'est pour moi une expérience inédite n'ayant jamais réalisé ce genre de tâches auparavant.
-%Parler de la tablette (QRD)
 
 ## NFC Playbook
 
