@@ -20,6 +20,10 @@ La seconde venait compléter cette démonstration, il fallait pouvoir démontrer
 
 Ces deux démonstrations ont été l'occasion pour moi d'apprendre à utiliser différentes manières pour manipuler la NFC sous Android.
 
+La mission sur laquelle je travaille actuellement est la réalisation d'un démonstrateur qui sera notre partie de la MOOCbox.
+Pour réaliser ce démonstrateur il m'a fallu acquérir de nouvelles connaissances et comprendre les schémas électriques de la carte que nous utilisons pour la puce NFC. Dans le but de relier celle-ci à la carte Android dont il m'a aussi fallu étudier les plans afin de faire les bons branchements.
+Il a aussi fallu que j'apprenne à regénérer une image Android afin de pouvoir y intégrer les pilotes nécessaire pour faire fonctionner la NFC.
+
 C'est pour moi une expérience inédite n'ayant jamais réalisé ce genre de tâches auparavant.
 
 ## NFC Playbook
