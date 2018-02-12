@@ -2,6 +2,8 @@
 % !TeX spellcheck = fr_FR
 % !TeX root = RapportMi3A.tex
 
+%
+
 %defini le style de couverture
 \fancypagestyle{couverture}{
 	\fancyhf{}
@@ -52,6 +54,7 @@
 \renewcommand\thechapter{\Roman{chapter}}
 \renewcommand\thesection{\Roman{section}}
 \renewcommand \thesubsection {\thesection.\Roman{subsection}}
+\renewcommand\thefigure{\thesection.\alph{figure}}
 
 %modification du style de chapitre
 \titleformat{\chapter}[hang]{\Huge\bfseries}{\thechapter\hsp\textcolor{gray75}{|}\hsp}{0pt}{\Huge\bfseries}
